@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: .9375rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: var(--Soft-red);
+}
+#navbarNavDropdown{
+    text-align: right;
+    width: 50%;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.img-logo{
+    width: 48px;
+}
+.h1-title{
+    font-family: var(--font-family);
+    font-size: clamp(2.5rem, 2.7vw, 3rem);
+    font-weight: 900;
+}
+.btn-edited{
+    background: var(--Soft-red);
+    color: var(--Off-white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 15px 35px;
+    font-weight: 600;
+    transition: 500ms all;
+}
+.btn-edited:hover{
+    background: var(--Very-dark-blue);
+    color: var(--Off-white);
+}
+hr{
+    color: var(--Off-white);
+    width: 100%;
+}
+
+.card-right{
+    background: var(--Very-dark-blue);
+    height: 100%;
+}
+.card-right h2{
+    font-size: 2.5rem;
+    color: var(--Soft-orange);
+}
+.card-right h3 a{
+    color: var(--Off-white);
+    font-weight: 700;
+    font-size: clamp(1.2rem, 1.3vw, 1.5rem);
+    transition: all 300ms ease-in-out;
+}
+.card-right h3 a:hover{
+    color: var(--Soft-orange);
+    transition: all 300ms ease-in-out;
+}
+.card-right h3, p{
+    color: var(--Off-white);
+}
+.e_text{
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+}
+.h2-cards{
+    font-size: 2.5rem;
+    color: var(--Grayish-blue);
+}
+.h3-cards a{
+    font-size: clamp(1.2rem, 1.3vw, 1.3rem);
+    font-weight: 700;
+    color: var(--Very-dark-blue);
+    transition: all 300ms ease-in-out;
+}
+.h3-cards a:hover{
+    color: var(--Soft-red);
+    transition: all 300ms ease-in-out;
+}
